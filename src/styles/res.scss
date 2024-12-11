@@ -1,0 +1,203 @@
+.mob-el{
+    display: none;
+}
+.desk-el{
+    display: block;
+}
+@media(max-width: 1024px){
+    .pt-mob-container .els > img:nth-child(1){
+        width: 150px;
+    }
+    .pt-mob-container .els > img:nth-child(2){
+        width: 150px;
+        right: 5%;
+    }
+    .pt-mob-section{
+        padding-top: 3em;
+    }
+    .mob-con{
+        min-height: auto;
+
+        >img{
+            height: auto;
+            width: 70px;
+        }
+    }
+    .pt-mob-container{
+        padding: 1.5em 1em;
+    }
+    .pt-mob-container > img{
+        width: 80%;
+        height: auto;
+    }
+    .sec-head{
+        font-size: 42px;
+    }
+    .sec-scroll-con > img{
+        width: 150px;
+        right: 0;
+    }
+    .chat-section{
+        height: auto;
+        z-index: 1;
+    }
+    .mob-grid-container .mob-grid-wrapper{
+        flex-direction: column;
+    }
+    .mob-grid-container .mob-grid-wrapper .mob-wrap .content{
+        max-width: 220px;
+
+        h2{
+            font-size: 24px;
+        }
+    }
+    .pt-mob-section, .third-section{
+        height: auto !important;
+    }
+    .mob-grid-container .mob-grid-wrapper .mob-wrap{
+        height: auto;
+        padding-top: 75%;
+
+        >img{
+            height: 100%;
+        }
+    }
+    .chat-section .chat-section__content{
+        text-align: center;
+
+        h2{
+            width: 100%;
+        }
+
+        img{
+            margin: 0 auto;
+            margin-bottom: 1em;
+            width: 70px;
+        }
+    }
+    .footer-logo{
+        width: 180px;
+    }
+    .main-footer{
+        padding: 3em 0px;
+    }
+    .main-footer .ft-para{
+        font-size: 18px;
+    }
+    .chat-section__mobile .chat-container{
+        left: 19%;
+        bottom: 28%;
+    }
+    .ft-list{
+        padding-left: 0;
+    }
+    .para{
+        font-size: 16px;
+    }
+    .ft-bottom{
+        flex-direction: column;
+    }
+    .th-con img{
+        margin-bottom: 1.2em;
+    }
+    .chat-section__mobile{
+        min-height: auto;
+    }
+    .chat-section__mobile > img{
+        width: 80%;
+        height: auto;
+    }
+    .spacer{
+        display: none;
+    }
+    .sec-scroll-con-container{
+        height: auto;
+        padding: 3em 0px;
+
+        >img{
+            width: 80%;
+            height: auto;
+            margin-bottom: 5em;
+        }
+    }
+    .mob-el{
+        display: block;
+    }
+    .desk-el{
+        display: none;
+    }
+    .animated-phone{
+        display: none;
+    }
+    .second-scroll{
+        position: relative;
+    }
+    .h-logo{
+        width: 150px;
+    }
+    .main-nav .inner-nav .r-part{
+        display: none;
+    }
+    .banner-mob{
+        padding-top: 3em;
+        min-height: auto;
+    }
+    .banner-text{
+        padding-top: 1.5em;
+        text-align: center;
+        padding-bottom: 7em;
+    }
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .main-banner > .el-2{
+        width: 80px;
+        display: none;
+    }
+    .main-banner > .line-pt{
+        width: 100%;
+        height: auto;
+    }
+    .main-banner > .el-4{
+        width: 70px;
+        top: 5%;
+    }
+    .main-banner{
+        height: auto;
+    }
+    .main-banner > .el-1{
+        width: 50px;
+        bottom: 40%;
+        left: 12%;
+    }
+    .main-banner > .el-3{
+        top: 15%;
+        right: 10%;
+        width: 50px;
+    }
+    .chat-section{
+        padding: 3em 0px;
+    }
+    .chat-section .chat-section__content{
+        min-height: auto !important;
+    }
+    .chat-section__mobile .chat-container > img{
+        height: auto;
+        margin-top: 2em;
+    }
+    
+    .sec-scroll-con {
+        text-align: center;
+    }
+    .sec-scroll-con > img {
+        width: 80px;
+    }
+    .mob-con{
+        text-align: center;
+
+        >img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
